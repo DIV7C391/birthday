@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8a9c4" />
+  <meta name="description" content="A little birthday surprise made with love for Pooja." />
+  <title>Happy Birthday Pooja! ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#">for Pooja <span>♡</span></a>
+    <button class="music-button" id="musicButton" type="button" aria-pressed="false">
+      <span class="music-icon">♫</span><span id="musicLabel">Play our song</span>
+    </button>
+    <audio id="birthdaySong" loop preload="none">
+      <source src="assets/music/your-song.mp3" type="audio/mpeg" />
+    </audio>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">A little page, a lot of love</p>
+        <h1>Happy Birthday,<br><span>Pooja!</span></h1>
+        <p class="hero-message">To my wonderful sister — thank you for filling life with laughter, love, and memories I’ll always keep close.</p>
+        <a class="primary-button" href="#memories">Open your surprise <span>↓</span></a>
+        <p class="tiny-note">Made with love, just for you ✿</p>
+      </div>
+      <div class="hero-art">
+        <div class="photo-frame hero-photo">
+          <img src="assets/photos/pooja-main.jpg" alt="A favourite photo of Pooja" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');" />
+          <span class="photo-fallback">Add Pooja’s<br>favourite photo here ♡</span>
+        </div>
+        <div class="sticker sticker-one">♡</div>
+        <div class="sticker sticker-two">the<br>birthday<br>girl!</div>
+        <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div>
+      </div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">Today is all about you</p>
+      <h2>Another year of being <em>you</em>.</h2>
+      <p>And honestly, the world is a little brighter because you’re in it. I hope today brings you the same happiness you bring to everyone around you.</p>
+    </section>
+
+    <section class="memories section-wrap" id="memories">
+      <div class="section-heading">
+        <div><p class="eyebrow">Little moments, big feelings</p><h2>Our memory lane</h2></div>
+        <span class="heading-doodle">♡</span>
+      </div>
+      <div class="memory-grid">
+        <article class="memory-card">
+          <div class="memory-image"><img src="assets/photos/memory-1.jpg" alt="A memory together" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');" /><span>📸</span></div>
+          <p class="memory-date">MEMORY NO. 01</p><h3>The silly laughs</h3>
+          <p>Those moments when we couldn’t stop laughing, even when nothing was that funny. I hope we never outgrow that.</p>
+        </article>
+        <article class="memory-card featured">
+          <div class="memory-image"><img src="assets/photos/memory-2.jpg" alt="A favourite family memory" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');" /><span>🌷</span></div>
+          <p class="memory-date">MEMORY NO. 02</p><h3>Always on my team</h3>
+          <p>Thank you for being there in your own special way — through the chaos, the celebrations, and everything in between.</p>
+        </article>
+        <article class="memory-card">
+          <div class="memory-image"><img src="assets/photos/memory-3.jpg" alt="A happy moment with Pooja" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');" /><span>✨</span></div>
+          <p class="memory-date">MEMORY NO. 03</p><h3>More memories to come</h3>
+          <p>From the smallest everyday moments to the biggest milestones, I’m glad I get to make this life’s memories with you.</p>
+        </article>
+      </div>
+      <p class="edit-hint">Tip: Replace these sample captions with your own real memories in <code>index.html</code>.</p>
+    </section>
+
+    <section class="letter-section">
+      <div class="letter">
+        <span class="letter-flower">✿</span>
+        <p class="eyebrow">A note from the heart</p>
+        <h2>Dear Pooja,</h2>
+        <p>Life gave me many gifts, and having you as my sister is one of the sweetest. Thank you for being exactly who you are. May this year bring you peaceful days, exciting adventures, good health, endless reasons to smile, and everything your heart has been wishing for.</p>
+        <p>Keep shining, keep laughing, and never forget how loved you are.</p>
+        <p class="signature">With lots of love, <span>your sibling ♡</span></p>
+      </div>
+    </section>
+
+    <section class="wishes section-wrap">
+      <p class="eyebrow">A wish for your new year</p>
+      <h2>May your days be as lovely<br>as your heart.</h2>
+      <div class="wish-tags"><span>More laughter</span><span>Big dreams</span><span>Beautiful surprises</span><span>All the happiness</span></div>
+      <div class="final-heart">♡</div>
+      <p class="final-line">Happy Birthday once again, Pooja!</p>
+    </section>
+  </main>
+
+  <footer>Made with ♡ for Pooja <span>·</span> Always your biggest cheerleader</footer>
+  <script src="script.js"></script>
+</body>
+</html>

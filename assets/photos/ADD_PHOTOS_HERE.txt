@@ -1,0 +1,6 @@
+Add your pictures in this folder using these exact filenames:
+pooja-main.jpg (main portrait)
+memory-1.jpg
+memory-2.jpg
+memory-3.jpg
+JPG, PNG or WebP is fine if you also update the file extension in index.html.

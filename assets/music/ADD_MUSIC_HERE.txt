@@ -1,0 +1,2 @@
+Place an MP3 file here named your-song.mp3.
+Use music you own or are permitted to share. Browsers require a click before audio starts.
